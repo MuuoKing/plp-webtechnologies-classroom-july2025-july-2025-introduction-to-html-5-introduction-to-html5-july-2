@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Template - User Registration</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Registration Portal</h1>
+        <p>Complete your registration and join our community</p>
+    </header>
+
+    <main>
+        <h2>User Registration</h2>
+        
+        <p>Please fill out the registration form below to create your account. All fields marked with an asterisk (*) are required. Once you complete the registration, you'll have access to all our services and features.</p>
+
+        <form>
+            <p>
+                <label for="fullName">Full Name *</label><br>
+                <input type="text" id="fullName" name="fullName" required>
+            </p>
+
+            <p>
+                <label for="email">Email Address *</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="phone">Phone Number *</label><br>
+                <input type="tel" id="phone" name="phone" required>
+            </p>
+
+            <p>
+                <label for="password">Password *</label><br>
+                <input type="password" id="password" name="password" required>
+            </p>
+
+            <p>
+                <label for="confirmPassword">Confirm Password *</label><br>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </p>
+
+            <p>
+                <label for="country">Country</label><br>
+                <select id="country" name="country">
+                    <option value="">Select your country</option>
+                    <option value="KE">Kenya</option>
+                    <option value="Tz">Tanzania</option>
+                    <option value="ug">Uganda</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="comments">Additional Comments</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Tell us about yourself or any special requirements..."></textarea>
+            </p>
+
+            <p>
+                <button type="submit">Register Now</button>
+            </p>
+        </form>
+
+        <h3>Current Registered Users</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Kamau</td>
+                    <td>john.kamau@gmail.com</td>
+                    <td>+254 747234567</td>
+                </tr>
+                <tr>
+                    <td>Sarah Johnson</td>
+                    <td>sarah.johnson@gmail.com</td>
+                    <td>+254 798654346</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>michael.brown@email.com</td>
+                    <td>+255 784936536</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>emily.davis@email.com</td>
+                    <td>+254 732160987</td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+        <p><em>Join our growing community of professionals</em></p>
+
+        <p>Need more information? Visit our search partner for additional resources and support.</p>
+        <p>
+            <a href="https://google.com" target="_blank">Visit Google for More Information</a>
+        </p>
+    </main>
+</body>
+</html>
